@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/
+
+# --- 테스트 영상 ---
+# 사람이 찍힌 영상이고 용량이 커서(GitHub 파일당 100MB 제한) 원본은 올리지 않는다.
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# --- 로컬 전용 (원격과 동일하게 가므로 애초에 커밋하지 않는다) ---
+HANDOFF.md
+plans/
